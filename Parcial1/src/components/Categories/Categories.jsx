@@ -34,6 +34,20 @@ const Categories = () => {
                 </div>
         </div>
         
+        <div className='Food'>
+        <h1 className='Category'>Destinos</h1>
+        <div className='Food-info'>
+            {Object.entries(planDeViajes.destinosdla).map(([key, item], index) => (
+            <Basecard 
+                key={index}
+                Category={'Destinos'} 
+                image={item.imagen} 
+                Title={item.nombre} 
+                Price={item.precio} 
+            />
+            ))}
+        </div>
+        </div>
 
         
      
