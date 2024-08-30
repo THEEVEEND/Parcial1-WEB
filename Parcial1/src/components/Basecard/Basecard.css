@@ -1,0 +1,20 @@
+
+.basecard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+ 
+  
+  .category-info img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+ 
+  
